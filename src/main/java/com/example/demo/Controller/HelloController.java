@@ -12,6 +12,10 @@ public class HelloController {
         ModelAndView m= new ModelAndView("testPage");
         return m;
     }
+    @GetMapping
+    public Object list(){
+        return "";
+    }
 }
 
 
